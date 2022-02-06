@@ -1,0 +1,20 @@
+.page-index {
+  // margin: 0;
+  .career-section {
+    border: 1px solid #343434;
+    &:nth-of-type(n+2) {
+      margin-top: 24px;
+    }
+  }
+  .career-history {
+    &:nth-of-type(n+2) {
+      margin-top: 24px;
+    }
+  }
+  .career-history-table {
+    border: 1px solid #343434;
+  }
+  .career-history-table__header {
+    background-color: #dbd8d8;
+  }
+}
